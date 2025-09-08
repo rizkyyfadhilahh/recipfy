@@ -3,7 +3,6 @@ import { View, Text, Alert, KeyboardAvoidingView, Platform, ScrollView, TextInpu
 import { useRouter } from "expo-router";
 import { useSignUp } from "@clerk/clerk-expo";
 import { authStyles } from "../../assets/styles/auth.styles";
-import { useState } from "react";
 import { Image } from "expo-image";
 import { COLORS } from "../../constants/colors";
 import { Ionicons } from "@expo/vector-icons";
