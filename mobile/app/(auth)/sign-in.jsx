@@ -1,5 +1,6 @@
 import { useSignIn } from "@clerk/clerk-expo";
 import { useRouter } from "expo-router";
+import { Platform } from 'react-native';
 import { useState } from "react";
 import { View, Text, Alert, KeyboardAvoidingView, ScrollView, TextInput, TouchableOpacity} from "react-native";
 import { Ionicons } from "@expo/vector-icons";
